@@ -7,6 +7,7 @@ const Profile =require('./profile')
 
 
 mongoose.connect("mongodb://localhost/testdb")
+
 async function run() {
     const user = new User({
         username : 'Joecelaster',
